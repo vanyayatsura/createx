@@ -2,11 +2,11 @@
   "compilerOptions": {
     "target": "es5",
     "module": "esnext",
-    "baseUrl": "./createx",
+    "baseUrl": "./",
     "moduleResolution": "node",
     "paths": {
       "@/*": [
-        "src/*"
+        "src/createx/*"
       ]
     },
     "lib": [

@@ -3,7 +3,7 @@
     <div class="top-bar">
     <div class="content-wrap top-bar_wrap">
       <div class="top-bar_logo">
-        <router-link to="/"><img src="../src/img/icon/logo.svg" alt="logo"></router-link>
+        <router-link to="/"><img src="./../src/img/icon/logo.svg" alt="logo"></router-link>
       </div>
       <div  @click="openCloseMenu" id="menuBody" class="top-bar_manu-body">
         <nav>
@@ -159,10 +159,10 @@
   </script>
 
 <style scoped>
-  @import url(styles/style.css);
-  @import url(styles/reset.css);
-  @import url(styles/top-bar.css);
-  @import url(styles/footer.css);
+  @import url(./styles/style.css);
+  @import url(./styles/reset.css);
+  @import url(./styles/top-bar.css);
+  @import url(./styles/footer.css);
   .top-bar {
     position: absolute;
     top: 0;
